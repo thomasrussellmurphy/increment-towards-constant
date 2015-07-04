@@ -6,7 +6,7 @@ int main(int argc, char argv[]) {
   float incrementee = 0.0;
   
   // Stop counting when we lose resolution of 1.0
-  while((incrementee + 1.0) - incrementee > 0.999999999) {
+  while((incrementee + (float)1.0) - incrementee > 0.999999999) {
     incrementee += 1.0;
   }
   
