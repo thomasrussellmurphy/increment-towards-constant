@@ -8,7 +8,7 @@ that these languages have the same or very similar underlying implementations of
 floating point numbers.
 
 At present, `run.sh` requires the following
-- `gcc'
+- `gcc`
 - `javac`
 - `ruby`
 - `python`
